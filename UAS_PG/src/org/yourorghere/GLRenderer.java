@@ -191,6 +191,11 @@ public void display(GLAutoDrawable drawable) {
     Objek.Roda(gl);
     gl.glTranslatef(7.5f, 0f, -1f);
     Objek.Roda(gl);
+    gl.glRotatef(90f, 0f, -1f, 0f);
+    gl.glTranslatef(3.25f, 1f, 0f);
+    Objek.Kaca(gl);
+    gl.glTranslatef(0f, 0f, -2f);
+    Objek.Krangka(gl);
     gl.glPopMatrix();
     gl.glPushMatrix();
     Objek.BigBox(gl);
